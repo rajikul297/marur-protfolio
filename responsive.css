@@ -1,0 +1,22 @@
+
+@media (max-width:768px) {
+.dropdown.toggle_dropdown {
+  display: block ;
+ }  
+ .main_menu {
+ display: none ;
+ }
+.toggle_dropdown {
+  width: 70%;
+}
+
+}
+@media (max-width: 480px) {
+  .about.bg-white.py-5.ps-5,
+  .container-lg.py4.ms-3,
+  .home-text.p-5{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+.row.ms-3 .col-6{width: 100%;}
+}
